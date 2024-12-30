@@ -3,7 +3,6 @@ import dt.streamlit
 
 def main():
 
-
     # Title of the web app
     st.title("Simple To-Do List App")
 
