@@ -27,7 +27,7 @@ def main():
             col2.write("✓")
 
     # Input field to add new tasks
-    st.text_input("Enter a list of tasks:", key="new_task", on_change=add_task)
+    st.text_input("Enter:", key="new_task", on_change=add_task)
 
 application = dt.streamlit.Streamlit()
 
